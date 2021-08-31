@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+    <title>Datta Able Free Bootstrap 4 Admin Template</title>
+    <!-- HTML5 Shim and Respond.js IE11 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 11]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Free Datta Able Admin Template come up with latest Bootstrap 4 framework with basic components, form elements and lots of pre-made layout options" />
+    <meta name="keywords" content="admin templates, bootstrap admin templates, bootstrap 4, dashboard, dashboard templets, sass admin templets, html admin templates, responsive, bootstrap admin templates free download,premium bootstrap admin templates, datta able, datta able bootstrap admin template, free admin theme, free dashboard template"/>
+    <meta name="author" content="CodedThemes"/>
+
+    <link rel="icon" href="{% static 'assets/images/favicon.ico'%}" type="image/x-icon">
+    <!-- fontawesome icon -->
+    <link href="{% static 'fonts/fontawesome/css/fontawesome-all.min.css'%}" rel="stylesheet">
+    <!-- animation css -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/animation/css/animate.min.css'%}">
+    <!-- vendor css -->
+    <link rel="stylesheet" href="{% static 'assets/css/style.css'%}">
+    </head>
+
+<body>
+    <!-- [ Pre-loader ] start -->
+    <div class="loader-bg">
+        <div class="loader-track">
+            <div class="loader-fill"></div>
+        </div>
+    </div>
+    <!-- [ Pre-loader ] End -->
+    <!-- [ navigation menu ] start -->
+    <nav class="pcoded-navbar">
+        <div class="navbar-wrapper">
+            <div class="navbar-brand header-logo">
+                <a href="index.html" class="b-brand">
+                    <div class="b-bg">
+                        <i class="feather icon-trending-up"></i>
+                    </div>
+                    <span class="b-title">Datta Able</span>
+                </a>
+                <a class="mobile-menu" id="mobile-collapse" href="javascript:"><span></span></a>
+            </div>
+            <div class="navbar-content scroll-div">
+                <ul class="nav pcoded-inner-navbar">
+                    <li class="nav-item pcoded-menu-caption">
+                        <label>Navigation</label>
+                    </li>
+                    <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" class="nav-item active">
+                        <a href="index.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a>
+                    </li>
+                    <li class="nav-item pcoded-menu-caption">
+                        <label>UI Element</label>
+                    </li>
+                    <li data-username="basic components Button Alert Badges breadcrumb Paggination progress Tooltip popovers Carousel Cards Collapse Tabs pills Modal Grid System Typography Extra Shadows Embeds" class="nav-item pcoded-hasmenu">
+                        <a href="javascript:" class="nav-link "><span class="pcoded-micon"><i class="feather icon-box"></i></span><span class="pcoded-mtext">Components</span></a>
+                        <ul class="pcoded-submenu">
+                            <li class=""><a href="bc_button.html" class="">Button</a></li>
+                            <li class=""><a href="bc_badges.html" class="">Badges</a></li>
+                            <li class=""><a href="bc_breadcrumb-pagination.html" class="">Breadcrumb & paggination</a></li>
+                            <li class=""><a href="bc_collapse.html" class="">Collapse</a></li>
+                            <li class=""><a href="bc_tabs.html" class="">Tabs & pills</a></li>
+                            <li class=""><a href="bc_typography.html" class="">Typography</a></li>
+
+
+                            <li class=""><a href="icon-feather.html" class="">Feather<span class="pcoded-badge label label-danger">NEW</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pcoded-menu-caption">
+                        <label>Forms & table</label>
+                    </li>
+                    <li data-username="form elements advance componant validation masking wizard picker select" class="nav-item">
+                        <a href="form_elements.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Form elements</span></a>
+                    </li>
+                    <li data-username="Table bootstrap datatable footable" class="nav-item">
+                        <a href="tbl_bootstrap.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-server"></i></span><span class="pcoded-mtext">Table</span></a>
+                    </li>
+                    <li class="nav-item pcoded-menu-caption">
+                        <label>Chart & Maps</label>
+                    </li>
+                    <li data-username="Charts Morris" class="nav-item"><a href="chart-morris.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-pie-chart"></i></span><span class="pcoded-mtext">Chart</span></a></li>
+                    <li data-username="Maps Google" class="nav-item"><a href="map-google.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-map"></i></span><span class="pcoded-mtext">Maps</span></a></li>
+                    <li class="nav-item pcoded-menu-caption">
+                        <label>Pages</label>
+                    </li>
+                    <li data-username="Authentication Sign up Sign in reset password Change password Personal information profile settings map form subscribe" class="nav-item pcoded-hasmenu">
+                        <a href="javascript:" class="nav-link "><span class="pcoded-micon"><i class="feather icon-lock"></i></span><span class="pcoded-mtext">Authentication</span></a>
+                        <ul class="pcoded-submenu">
+                            <li class=""><a href="auth-signup.html" class="" target="_blank">Sign up</a></li>
+                            <li class=""><a href="auth-signin.html" class="" target="_blank">Sign in</a></li>
+                        </ul>
+                    </li>
+                    <li data-username="Sample Page" class="nav-item"><a href="sample-page.html" class="nav-link"><span class="pcoded-micon"><i class="feather icon-sidebar"></i></span><span class="pcoded-mtext">Sample page</span></a></li>
+                    <li data-username="Disabled Menu" class="nav-item disabled"><a href="javascript:" class="nav-link"><span class="pcoded-micon"><i class="feather icon-power"></i></span><span class="pcoded-mtext">Disabled menu</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- [ navigation menu ] end -->
+
+    <!-- [ Header ] start -->
+    <header class="navbar pcoded-header navbar-expand-lg navbar-light">
+        <div class="m-header">
+            <a class="mobile-menu" id="mobile-collapse1" href="javascript:"><span></span></a>
+            <a href="index.html" class="b-brand">
+                   <div class="b-bg">
+                       <i class="feather icon-trending-up"></i>
+                   </div>
+                   <span class="b-title">Datta Able</span>
+               </a>
+        </div>
+        <a class="mobile-menu" id="mobile-header" href="javascript:">
+            <i class="feather icon-more-horizontal"></i>
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li><a href="javascript:" class="full-screen" onclick="javascript:toggleFullScreen()"><i class="feather icon-maximize"></i></a></li>
+                <li class="nav-item dropdown">
+                    <a class="dropdown-toggle" href="javascript:" data-toggle="dropdown">Dropdown</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="javascript:">Action</a></li>
+                        <li><a class="dropdown-item" href="javascript:">Another action</a></li>
+                        <li><a class="dropdown-item" href="javascript:">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <div class="main-search">
+                        <div class="input-group">
+                            <input type="text" id="m-search" class="form-control" placeholder="Search . . .">
+                            <a href="javascript:" class="input-group-append search-close">
+                                <i class="feather icon-x input-group-text"></i>
+                            </a>
+                            <span class="input-group-append search-btn btn btn-primary">
+                                <i class="feather icon-search input-group-text"></i>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li>
+                    <div class="dropdown">
+                        <a class="dropdown-toggle" href="javascript:" data-toggle="dropdown"><i class="icon feather icon-bell"></i></a>
+                        <div class="dropdown-menu dropdown-menu-right notification">
+                            <div class="noti-head">
+                                <h6 class="d-inline-block m-b-0">Notifications</h6>
+                                <div class="float-right">
+                                    <a href="javascript:" class="m-r-10">mark as read</a>
+                                    <a href="javascript:">clear all</a>
+                                </div>
+                            </div>
+                            <ul class="noti-body">
+                                <li class="n-title">
+                                    <p class="m-b-0">NEW</p>
+                                </li>
+                                <li class="notification">
+                                    <div class="media">
+                                        <img class="img-radius" src="{% static 'assets/images/user/avatar-1.jpg'%}" alt="Generic placeholder image">
+                                        <div class="media-body">
+                                            <p><strong>John Doe</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>30 min</span></p>
+                                            <p>New ticket Added</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="n-title">
+                                    <p class="m-b-0">EARLIER</p>
+                                </li>
+                                <li class="notification">
+                                    <div class="media">
+                                        <img class="img-radius" src="{% static 'assets/images/user/avatar-2.jpg'%}" alt="Generic placeholder image">
+                                        <div class="media-body">
+                                            <p><strong>Joseph William</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>30 min</span></p>
+                                            <p>Prchace New Theme and make payment</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="notification">
+                                    <div class="media">
+                                        <img class="img-radius" src="{% static 'assets/images/user/avatar-3.jpg'%}" alt="Generic placeholder image">
+                                        <div class="media-body">
+                                            <p><strong>Sara Soudein</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>30 min</span></p>
+                                            <p>currently login</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="noti-footer">
+                                <a href="javascript:">show all</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown drp-user">
+                        <a href="javascript:" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="icon feather icon-settings"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right profile-notification">
+                            <div class="pro-head">
+                                            <img class="img-radius" src="{% static 'assets/images/user/avatar-2.jpg'%}" alt="Generic placeholder image">
+                                <span>{{user.username}}</span>
+                                <a href="{% url 'logout_url' %}" class="dud-logout" title="Logout">
+                                </a>
+                            </div>
+                            <ul class="pro-body">
+                                <li><a href="javascript:" class="dropdown-item"><i class="feather icon-settings"></i> Settings</a></li>
+                                <li><a href="javascript:" class="dropdown-item"><i class="feather icon-user"></i> Profile</a></li>
+                                <li><a href="message.html" class="dropdown-item"><i class="feather icon-mail"></i> My Messages</a></li>
+                                <li><a href="auth-signin.html" class="dropdown-item"><i class="feather icon-lock"></i> Lock Screen</a></li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- [ Header ] end -->
+
+    <!-- [ Main Content ] start -->
+    <div class="pcoded-main-container">
+        <div class="pcoded-wrapper">
+            <div class="pcoded-content">
+                <div class="pcoded-inner-content">
+                    <!-- [ breadcrumb ] start -->
+
+                    <form  method="GET" action="Books">
+                    	<div class="input-group">
+					
+					  <div class="form-outline">
+					    <input type="text"  name="user" placeholder="Enter the Book name" id="form1" class="form-control" />
+					  </div>
+					  <button class="btn btn-primary">Click</button>
+					</div>
+                        {% csrf_token %}
+                    <!-- [ breadcrumb ] end -->
+                    <div class="main-body">
+                        <div class="page-wrapper">
+                            <!-- [ Main Content ] start -->
+                            <div class="row">
+                                <!-- [ basic-table ] start -->
+                                <div class="col-xl-12">
+                                    <div class="card">
+                                        <div class="card-header">
+
+                                            <h5>Books Table</h5>
+                                            {% if request.user.is_superuser %}
+                                            </td><a href="{% url 'upload'%}" class="btn btn-primary btn-sm">Book Upload</a></td>
+                                             </div>
+
+                                                  <div class="container">
+                                                    <div class="row">
+                                                      <div class="col-md-12">
+                                                       <div class="table-responsive">
+
+                                                <table class="table">
+                                                            <th>Id</th>
+                                                            <th>Title</th>
+                                                            <th>Author</th>
+                                                            <th>Download</th>
+                                                            <th>Delete</th>
+
+                                                        {% for book in Books%}
+                                                        <tr>
+                                                            <td>{{book.id}}</td>
+                                                            <td>{{book.title}}</td>
+                                                            <td>{{book.author}}</td>
+                                                            <td><a href="{{ book.pdf.url }}" class="btn btn-primary btn-sm" target="_blank">Download</a></td>
+
+                                                            <td>
+                                                           <form method="post" action="{% url 'delete' book.pk %}">
+                                                           {% csrf_token %}
+                                                               <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                                           </form>
+                                                       </td>
+                                                        </tr>
+                                                        {% endfor %}
+                                                        </tbody>
+                                                        </table>
+                                                        {% else %}
+                                 
+                                                  <div class="container">
+                                                    <div class="row">
+                                                      <div class="col-md-12">
+                                                       <div class="table-responsive">
+
+                                                <table class="table">
+                                                            <th>Id</th>
+                                                            <th>Title</th>
+                                                            <th>Author</th>
+                                                            <th>Download</th>
+
+                                                        {% for book in Books%}
+                                                        <tr>
+                                                            <td>{{book.id}}</td>
+                                                            <td>{{book.title}}</td>
+                                                            <td>{{book.author}}</td>
+                                                            <td><a href="{{ book.pdf.url }}" class="btn btn-primary btn-sm" target="_blank">Download</a></td>
+
+                                                        </td>
+                                                        </tr>
+                                                        {% endfor %}
+                                                        </tbody>
+                                                        </table>
+                                                        {% endif %}
+                                                <!--
+                                                <br>
+                                                HAS previous :{{Books.has_previous}}<br>
+                                                HAS Next :{{Books.has_next}}<br>
+                                                Current page :{{Books.number}}<br>
+                                                Number of page :{{Books.paginator.num_pages}}<br>
+                                                <br>
+
+
+                                                {% if Books.has_previous %}
+                                                <a href="?page=1" class="btn btn-primary btn-sm">&laquoFirst</a>
+                                                <a href="?page={{ Books.previous_page_number }}" class="btn btn-primary btn-sm">Previous</a>
+                                                {% endif %}
+
+
+                                                Page{{ Books.number }} of {{ Books.paginator.num_pages }}
+                                                {% if Books.has_next %}
+                                                <a href="?page={{ Books.next_page_number }}" class="btn btn-primary btn-sm">next</a>
+
+                                                <a href="?page={{ Books.paginator.num_pages }}" class="btn btn-primary btn-sm">Last&raquo</a>
+                                                {% endif %}
+-->
+
+{% if Books.has_other_pages %}
+    <ul class="pagination">
+        {% if Books.has_previous %}
+            <li class="waves-effect"><a href="?page=
+                    {{ Books.previous_page_number }}{% if request.GET.get.x %}&q={{ request.GET.get.x }}{% endif %}"><i
+                    class="material-icons">chevron_left</i></a></li>
+        {% else %}
+            <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+        {% endif %}
+        {% for num in Books.paginator.page_range %}
+            {% if Books.number == num %}
+                <li class="active"><a href="#!">{{ num }}</a></li>
+            {% else %}
+                <li class="waves-effect"><a
+                        href="?page={{ num }}{% if request.GET.get.x %}&q={{ request.GET.get.x }}{% endif %}">{{ num }}</a></li>
+            {% endif %}
+        {% endfor %}
+        {% if Books.has_next %}
+            <li class="waves-effect"><a
+                    href="?page={{ Books.next_page_number }}{% if request.GET.get.x %}&q={{ request.GET.get.x }}{% endif %}"><i
+                    class="material-icons">chevron_right</i></a></li>
+        {% else %}
+            <li class="disabled"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        {% endif %}
+    </ul>
+{% endif %}
+
+    <!-- [ Main Content ] end -->
+    <!-- Warning Section Starts -->
+    <!-- Older IE warning message -->
+    <!--[if lt IE 11]>
+        <div class="ie-warning">
+            <h1>Warning!!</h1>
+            <p>You are using an outdated version of Internet Explorer, please upgrade
+               <br/>to any of the following web browsers to access this website.
+            </p>
+            <div class="iew-container">
+                <ul class="iew-download">
+                    <li>
+                        <a href="http://www.google.com/chrome/">
+                            <img src="{% static 'assets/images/browser/chrome.png'%}" alt="Chrome">
+                            <div>Chrome</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.mozilla.org/en-US/firefox/new/">
+                            <img src="assets/images/browser/firefox.png" alt="Firefox">
+                            <div>Firefox</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.opera.com">
+                            <img src="assets/images/browser/opera.png" alt="Opera">
+                            <div>Opera</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.apple.com/safari/">
+                            <img src="{% static 'assets/images/browser/safari.png'%}" alt="Safari">
+                            <div>Safari</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                            <img src="{% static 'assets/images/browser/ie.png'%}" alt="">
+                            <div>IE (11 & above)</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p>Sorry for the inconvenience!</p>
+        </div>
+    <![endif]-->
+    <!-- Warning Section Ends -->
+
+    <!-- Required Js -->
+
+    <script src="{% static 'assets/js/vendor-all.min.js'%}"></script>
+    <script src="{% static 'assets/plugins/bootstrap/js/bootstrap.min.js'%}"></script>
+    <script src="{% static 'assets/js/pcoded.min.js'%}"></script>
+
+
+
+</body>
+</html>

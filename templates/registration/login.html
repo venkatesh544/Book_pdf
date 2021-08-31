@@ -1,0 +1,18 @@
+{% extends 'auth-signup.html' %}
+
+
+{% block content %}
+
+{% load crispy_forms_tags %}
+<h3 class="mb-4">Sign up</h3>
+
+<form method="POST">
+	{% csrf_token %}
+    {{form|crispy}}
+
+    <button class="btn btn-primary shadow-2 mb-4">Sign up</button>
+
+    <p class="mb-0 text-muted">Don't have an account? <a href="{% url 'register_url' %}"> Register here</a></p>
+
+</form>
+{% endblock %}

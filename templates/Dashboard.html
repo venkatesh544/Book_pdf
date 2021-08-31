@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'homepage.html' %}
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    {% block content %}
+                    <!-- [ breadcrumb ] end -->
+                    <div class="main-body">
+                        <div class="page-wrapper">
+                            <!-- [ Main Content ] start -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card">
+                                        <div class="card-block">
+											<h2>Thanks for login!</h2>
+                                            <br>
+											<h3>Please click the blow button read some books or you can store the book</h3>
+                                                <br>
+											<h2><a href="{% url 'Books'%}" class="btn btn-primary btn-sm">Click Here..!</a></h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- [ Main Content ] end -->
+                        </div>
+                    </div>
+             {% endblock %}
